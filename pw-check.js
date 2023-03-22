@@ -6,7 +6,7 @@ const confPassError = document.querySelector("#confirm-password + span.error");
 confPassElem.addEventListener("input", checkPass);
 passElem.addEventListener("input", checkPass);
 function checkPass() {
-	let msg = "&nbsp;";
+	let msg = "";
 	if (passElem.value != confPassElem.value && confPassElem.value != "") {
 		msg = "* Passwords do not match";
 		passElem.className = "input-error";
