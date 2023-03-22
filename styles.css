@@ -1,0 +1,124 @@
+body {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+}
+
+.image {
+	box-sizing: border-box;
+	height: 100vh;
+	width: 40vw;
+	background-image: url("images/beach.jpg");
+	background-attachment: fixed;
+	background-size: 2500px auto;
+	padding-top: 12vh;
+}
+
+.banner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #F6F7F8;
+	height: 140px;
+	width: 100%;
+	backdrop-filter: brightness(70%);
+}
+
+.primary-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+	width: 60vw;
+	background-color: rgb(15, 23, 31);
+	color: #F6F7F8;
+	margin: 0;
+}
+
+.form-container {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+  background-color: rgb(27, 41, 55);
+  border: 1px solid rgb(8, 12, 17);
+  border-radius: 3px;
+	gap: clamp(20px, 4vh, 100px);
+  width: 100%;
+  margin: 40px 0;
+  padding: 30px;
+}
+
+h1 {
+	margin: 0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: clamp(16px, 3vh, 30px);
+}
+.form-row {
+	display: flex;
+	gap: clamp(5px, 4vw, 150px);
+}
+
+.form-item {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+p {
+	font-size: 32px;
+	width: clamp(100px, 70%, 1800px);
+	padding-left: 30px;
+}
+
+.slogan {
+	font-size: 32px;
+}
+
+.login {
+	font-size: 24px;
+}
+
+button {
+	color: #F6F7F8;
+	font-weight: bold;
+	background-color: transparent;
+	border: 1px solid rgb(236, 131, 97);
+	border-radius: 4px;
+	font-size: 20px;
+	height: 50px;
+	width: 240px;
+	margin-left: 30px;
+}
+
+button:hover {
+	border-width: 2px;
+}
+
+button:active {
+	border-width: 3px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+}
+
+a {
+	color: hotpink;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+a:active {
+	color: rgb(201, 85, 143)
+}
